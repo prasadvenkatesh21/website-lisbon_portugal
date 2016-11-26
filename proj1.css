@@ -1,0 +1,128 @@
+/*Venkateshprasad Ashwathnarayana Jadrn001*/
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html, body {
+    min-width: 900px;
+    height: 100%;
+    background-color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #000066;
+    font-family: "Georgia", serif;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: #000066;
+    font-family: "Georgia", serif;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #000066;
+    font-family: "Georgia", serif;
+}
+#container {
+    min-height: 100%;
+    min-width: 100px;
+}
+#navigation ul {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#navigation li {
+    font-family: "Georgia", serif;
+    display: inline;
+    margin-left: -30px;
+    background-color: #FFF;
+}
+
+#navigation a {
+    min-width: 100px;
+    text-decoration: underline;
+    padding: 7px 50px 7px 50px;
+    font-weight: bold;
+    border: 2px solid #0000b3;
+    color:  #FFF;
+    background-color: #0000b3;
+}
+
+
+#navigation a:hover {
+    color:  #0000e6;
+    background-color: #FFF;
+    border: 2px solid #d9d9d9;
+}
+#navigation a:active {
+    color: #000;
+}
+
+.paragraphs {
+    margin: 0% 5% 5% 5%;
+    text-align: justify;
+    position: relative;
+    min-width: 900px;
+    min-height: 100%;
+    font: 20px Georgia;
+    line-height: 120%;
+    font-family: "Georgia", serif;
+    text-indent: 50px
+}
+
+#tables {
+    font: "15px Georgia";
+    font-family: "Georgia", serif;
+    position: relative;
+    left: 40%;
+}
+
+.figure {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+table, th, td {
+    border: 1px solid darkblue
+}
+
+
+li {
+    margin-bottom: 20px
+}
+#footer {
+    bottom:0;
+    width:100%;
+    height:100px;
+    background:#000066;
+    color:#fff;
+    text-align:center;
+    font: "15px Georgia";
+}
+
